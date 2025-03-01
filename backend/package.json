@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set PORT=4001&& set NODE_ENV=development&& set JWT_SECRET=0efa284e3bfc91b11e28b112fa1c7e321e9243875d103655d64c4ba562a327838eaa5e4af5b03ae4583957de73e02d433aa126debcfbe61e29def6fd6b475216&& set REFRESH_TOKEN_SECRET=eDUgabdPylBsJARzF1rOkYv9KHTEfq5L&& nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.11.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "xml2js": "^0.6.2",
+    "twilio": "^4.22.0",
+    "messagebird": "^4.0.1",
+    "crypto": "^1.0.1"
+  }
+}
